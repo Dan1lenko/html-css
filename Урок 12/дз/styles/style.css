@@ -1,0 +1,920 @@
+@import url(./reset.css);
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: #fff;
+}
+
+header {
+  width: 100%;
+  background-image: url(../photos/Background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+header .top-header {
+  width: 70%;
+  height: 115px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .top-header .logo-container {
+  font-size: 20px;
+  font-weight: bold;
+}
+header .top-header .buttons {
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 150px;
+  color: #fff;
+}
+header .top-header .buttons a:last-child {
+  border: 2px solid #fff;
+  border-radius: 40px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: 0.25s linear;
+}
+header .top-header .buttons a:last-child:hover {
+  background-color: #fff;
+  color: black;
+}
+header .bottom-header {
+  height: 250px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+header .bottom-header .title {
+  text-align: center;
+  font-size: 52px;
+  font-weight: bold;
+}
+header .bottom-header .small-text-header {
+  font-size: 24px;
+  font-weight: 300;
+}
+header .bottom-header .small-text-header p {
+  color: rgb(247, 243, 242);
+}
+header .bottom-header .button-header {
+  cursor: pointer;
+}
+header .bottom-header .button-header a {
+  background-color: rgb(255, 78, 80);
+  border-radius: 40px;
+  padding: 10px 15px;
+  transition: 0.25s linear;
+}
+header .bottom-header .button-header a:hover {
+  background-color: rgb(253, 50, 53);
+}
+
+main {
+  width: 100%;
+  height: 2490px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .Dreamshare {
+  height: 651px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .Dreamshare .title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+main .Dreamshare .container {
+  width: 940px;
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+}
+main .Dreamshare .container .card {
+  border-radius: 4px;
+  width: 32%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: end;
+  padding: 21px 25px;
+  color: #fff;
+}
+main .Dreamshare .container .card1 {
+  background-image: url(../photos/Step\ 1\ image.png);
+}
+main .Dreamshare .container .card1 p:first-child {
+  background-color: rgb(255, 78, 80);
+  border-radius: 40px;
+  font-size: 10px;
+  font-weight: 400;
+  padding: 4px 14px;
+  margin-bottom: 15px;
+}
+main .Dreamshare .container .card1 p:nth-child(2) {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+main .Dreamshare .container .card1 p:last-child {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(227, 227, 227);
+}
+main .Dreamshare .container .card2 {
+  background-image: url(../photos/Step\ 2\ image.png);
+}
+main .Dreamshare .container .card2 p:first-child {
+  background-color: rgb(255, 78, 80);
+  border-radius: 40px;
+  font-size: 10px;
+  font-weight: 400;
+  padding: 4px 14px;
+  margin-bottom: 15px;
+}
+main .Dreamshare .container .card2 p:nth-child(2) {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+main .Dreamshare .container .card2 p:last-child {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(227, 227, 227);
+}
+main .Dreamshare .container .card3 {
+  background-image: url(../photos/Step\ 3\ image.png);
+}
+main .Dreamshare .container .card3 p:first-child {
+  background-color: rgb(255, 78, 80);
+  border-radius: 40px;
+  font-size: 10px;
+  font-weight: 400;
+  padding: 4px 14px;
+  margin-bottom: 15px;
+}
+main .Dreamshare .container .card3 p:nth-child(2) {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+main .Dreamshare .container .card3 p:last-child {
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(227, 227, 227);
+}
+main .Meet-partner {
+  height: 456px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 85px;
+}
+main .Meet-partner .title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+main .Meet-partner .container {
+  width: 940px;
+  display: flex;
+  justify-content: space-between;
+  height: 224px;
+}
+main .Meet-partner .container div {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+main .Meet-partner .container div .card {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+main .Meet-partner .container div .card .name {
+  font-size: 14px;
+  font-weight: 700;
+}
+main .Meet-partner .container div .card p:last-child {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+}
+main .Meet-partner .container div .card .photo {
+  width: 120px;
+  height: 120px;
+  position: relative;
+}
+main .Meet-partner .container div .card .photo .mini {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 32px;
+  width: 32px;
+  outline: 4px solid #fff;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .Meet-partner .container div .card .photo1 {
+  background-image: url(../photos/1.png);
+  border-radius: 50%;
+}
+main .Meet-partner .container div .card .photo1 .mini {
+  background-color: rgb(255, 78, 80);
+}
+main .Meet-partner .container div .card .photo2 {
+  background-image: url(../photos/2.png);
+  border-radius: 50%;
+}
+main .Meet-partner .container div .card .photo2 .mini {
+  background-color: rgb(25, 212, 202);
+}
+main .Meet-partner .container div .card .photo3 {
+  background-image: url(../photos/3.png);
+  border-radius: 50%;
+}
+main .Meet-partner .container div .card .photo3 .mini {
+  background-color: rgb(255, 167, 16);
+}
+main .Meet-partner .container div .card .photo4 {
+  background-image: url(../photos/4.png);
+  border-radius: 50%;
+}
+main .Meet-partner .container div .card .photo4 .mini {
+  background-color: rgb(102, 125, 243);
+  padding-left: 3px;
+}
+main .Meet-partner a {
+  font-size: 14px;
+  font-weight: bold;
+  border: 2px solid rgb(255, 78, 80);
+  color: rgb(255, 78, 80);
+  padding: 10px 20px;
+  border-radius: 40px;
+  transition: 0.25s linear;
+}
+main .Meet-partner a:hover {
+  color: #fff;
+  background-color: rgb(255, 78, 80);
+}
+main .Ideas {
+  height: 1126px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .Ideas p {
+  font-size: 26px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 35px;
+}
+main .Ideas .container {
+  width: 66%;
+  height: 970px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+main .Ideas .container .top-left:hover,
+main .Ideas .container .top-middle:hover,
+main .Ideas .container .top-right:hover,
+main .Ideas .container .middle-left:hover,
+main .Ideas .container .middle-right:hover,
+main .Ideas .container .bottom-left:hover,
+main .Ideas .container .bottom-right:hover {
+  scale: 1.03;
+}
+main .Ideas .container .photo-text, main .Ideas .container .bottom .bottom-right, main .Ideas .container .bottom .bottom-left, main .Ideas .container .middle .middle-right, main .Ideas .container .middle .middle-left, main .Ideas .container .top .top-right, main .Ideas .container .top .top-middle, main .Ideas .container .top .top-left {
+  color: #fff;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main .Ideas .container .top {
+  width: 100%;
+  height: 310px;
+  display: flex;
+  justify-content: space-between;
+}
+main .Ideas .container .top div {
+  width: 32%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+main .Ideas .container .top .top-left {
+  background-image: url(../photos/Sport.png);
+  border-radius: 4px;
+  transition: 0.25s linear;
+}
+main .Ideas .container .top .top-middle {
+  background-image: url(../photos/Healath.png);
+  border-radius: 4px;
+  transition: 0.25s linear;
+}
+main .Ideas .container .top .top-right {
+  background-image: url(../photos/Extreme.png);
+  border-radius: 4px;
+  transition: 0.25s linear;
+}
+main .Ideas .container .middle {
+  width: 100%;
+  height: 310px;
+  display: flex;
+  justify-content: space-between;
+}
+main .Ideas .container .middle .middle-left {
+  width: 32%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  background-image: url(../photos/Games.png);
+  transition: 0.25s linear;
+}
+main .Ideas .container .middle .middle-right {
+  width: 66%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  background-image: url(../photos/Culture.png);
+  transition: 0.25s linear;
+}
+main .Ideas .container .bottom {
+  width: 100%;
+  height: 310px;
+  display: flex;
+  justify-content: space-between;
+}
+main .Ideas .container .bottom .bottom-left {
+  width: 66%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  background-image: url(../photos/enjomet.png);
+  transition: 0.25s linear;
+}
+main .Ideas .container .bottom .bottom-right {
+  width: 32%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  background-image: url(../photos/travelling.png);
+  transition: 0.25s linear;
+}
+main .Activity {
+  height: 259px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .Activity .title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 43px;
+  color: black;
+}
+main .Activity p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 25px;
+  color: rgb(102, 102, 102);
+}
+main .Activity .search_block {
+  display: flex;
+  width: 480px;
+  justify-content: space-between;
+  align-items: center;
+}
+main .Activity .search_block form {
+  width: 300px;
+  height: 40px;
+  display: flex;
+  margin: 0 auto;
+}
+main .Activity input.search {
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid rgb(212, 212, 212);
+  padding-left: 15px;
+  color: rgb(73, 73, 73);
+  font-size: 14px;
+  font-weight: 300;
+}
+main .Activity a {
+  background-color: rgb(255, 78, 80);
+  border-radius: 40px;
+  padding: 10px 15px;
+  transition: 0.25s linear;
+}
+main .Activity a:hover {
+  background-color: rgb(253, 50, 53);
+}
+
+footer {
+  width: 100%;
+  height: 260px;
+  border-top: 2px solid rgb(255, 78, 80);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer .container {
+  width: 66%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .container .left {
+  width: 550px;
+  height: 100%;
+  padding: 38px 0;
+  display: flex;
+  justify-content: space-between;
+}
+footer .container .left .title {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgb(255, 78, 80);
+}
+footer .container .left .bold {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+footer .container .left a {
+  color: rgb(153, 153, 153);
+  line-height: 26px;
+}
+footer .container .right {
+  width: 120px;
+  height: 100%;
+  padding: 38px 0;
+}
+footer .container .right p {
+  font-size: 10px;
+  font-weight: bold;
+  color: rgb(204, 204, 204);
+  text-align: end;
+}
+footer .container .right div {
+  background-image: url(../photos/Bitmap.svg);
+  height: 26px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1000px) {
+  header .top-header {
+    width: 80%;
+  }
+  main {
+    height: 2736px;
+  }
+  main .Meet-partner {
+    height: 700px;
+  }
+  main .Meet-partner .container {
+    height: 464px;
+    width: 492px;
+  }
+  main .Meet-partner .container div {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .Meet-partner .container div .card {
+    height: 220px;
+  }
+  main .Dreamshare .container {
+    width: 95%;
+  }
+  main .Ideas .container {
+    width: 95%;
+  }
+  footer .container {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 768px) {
+  header .top-header {
+    width: 80%;
+  }
+  main {
+    height: 2736px;
+  }
+  main .Meet-partner {
+    height: 700px;
+  }
+  main .Meet-partner .container {
+    height: 464px;
+    width: 492px;
+  }
+  main .Meet-partner .container div {
+    flex-direction: column;
+    align-items: center;
+  }
+  main .Meet-partner .container div .card {
+    height: 220px;
+  }
+  main .Dreamshare .container {
+    width: 95%;
+  }
+  main .Ideas .container {
+    width: 95%;
+  }
+  footer .container {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 700px) {
+  header {
+    height: 540px;
+    width: 100%;
+  }
+  header .top-header {
+    width: 80%;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+    height: 180px;
+  }
+  header .bottom-header {
+    margin-top: 25px;
+    height: 200px;
+    width: 100%;
+  }
+  header .bottom-header .title {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  header .bottom-header .small-text-header {
+    font-size: 18px;
+    font-weight: 300;
+    width: 280px;
+  }
+  header .bottom-header .small-text-header p {
+    word-break: break-word;
+    text-align: center;
+  }
+  main {
+    height: 3247px;
+    width: 100%;
+  }
+  main .Meet-partner {
+    height: 1066px;
+    padding-bottom: 35px;
+  }
+  main .Meet-partner .title {
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  main .Meet-partner .container {
+    height: 890px;
+    width: 100%;
+    flex-direction: column;
+  }
+  main .Meet-partner .container div {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  main .Meet-partner .container div .card {
+    height: 220px;
+  }
+  main .Dreamshare {
+    height: 900px;
+    padding: 35px 0;
+    justify-content: space-between;
+  }
+  main .Dreamshare p {
+    text-align: center;
+  }
+  main .Dreamshare .container {
+    width: 95%;
+    height: 740px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  main .Dreamshare .container .card {
+    width: 100%;
+    height: 240px;
+  }
+  main .Dreamshare .container .card p {
+    text-align: start;
+  }
+  main .Ideas {
+    height: 1022px;
+  }
+  main .Ideas .container {
+    width: 95%;
+    height: 900px;
+  }
+  main .Ideas .container .top {
+    flex-direction: column;
+    width: 100%;
+    height: 380px;
+  }
+  main .Ideas .container .top .top-left {
+    width: 100%;
+    height: 120px;
+  }
+  main .Ideas .container .top .top-middle {
+    width: 100%;
+    height: 120px;
+  }
+  main .Ideas .container .top .top-right {
+    width: 100%;
+    height: 120px;
+  }
+  main .Ideas .container .middle {
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+  }
+  main .Ideas .container .middle .middle-left {
+    width: 100%;
+    height: 120px;
+  }
+  main .Ideas .container .middle .middle-right {
+    width: 100%;
+    height: 120px;
+  }
+  main .Ideas .container .bottom {
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+  }
+  main .Ideas .container .bottom .bottom-left {
+    width: 100%;
+    height: 120px;
+  }
+  main .Ideas .container .bottom .bottom-right {
+    width: 100%;
+    height: 120px;
+  }
+  main .Activity .title {
+    text-align: center;
+    margin: 0 0 10px 0;
+  }
+  main .Activity p {
+    margin: 0 0 10px 0;
+  }
+  main .Activity .search_block {
+    flex-direction: column;
+    height: 90px;
+    width: 95%;
+  }
+  main .Activity .search_block a {
+    width: 95%;
+    text-align: center;
+  }
+  footer {
+    padding: 22px 0;
+    width: 100%;
+  }
+  footer .container {
+    width: 95%;
+    flex-direction: column;
+  }
+  footer .container .left {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+  footer .container .left a {
+    text-align: center;
+  }
+  footer .container .left .bold {
+    text-align: center;
+  }
+  footer .container .left div p {
+    text-align: center;
+  }
+  footer .container .left div ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  footer .container .right {
+    padding: 20px 0 0;
+  }
+}
+@media screen and (max-width: 320px) {
+  header {
+    height: 540px;
+    width: 100%;
+  }
+  header .top-header {
+    width: 80%;
+    flex-direction: column-reverse;
+    margin-top: 20px;
+    height: 180px;
+  }
+  header .bottom-header {
+    margin-top: 25px;
+    height: 200px;
+    width: 100%;
+  }
+  header .bottom-header .title {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  header .bottom-header .small-text-header {
+    font-size: 18px;
+    font-weight: 300;
+    width: 280px;
+  }
+  header .bottom-header .small-text-header p {
+    word-break: break-word;
+    text-align: center;
+  }
+  main {
+    height: 3247px;
+    width: 100%;
+  }
+  main .Meet-partner {
+    height: 1066px;
+    padding-bottom: 35px;
+  }
+  main .Meet-partner .title {
+    margin: 0;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+  }
+  main .Meet-partner .container {
+    height: 890px;
+    width: 100%;
+    flex-direction: column;
+  }
+  main .Meet-partner .container div {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  main .Meet-partner .container div .card {
+    height: 220px;
+  }
+  main .Dreamshare {
+    height: 900px;
+    padding: 35px 0;
+    justify-content: space-between;
+  }
+  main .Dreamshare p {
+    text-align: center;
+  }
+  main .Dreamshare .container {
+    width: 95%;
+    height: 740px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  main .Dreamshare .container .card {
+    width: 100%;
+    height: 240px;
+  }
+  main .Dreamshare .container .card p {
+    text-align: start;
+  }
+  main .Ideas {
+    height: 1022px;
+  }
+  main .Ideas .container {
+    width: 95%;
+    height: 900px;
+  }
+  main .Ideas .container .top {
+    flex-direction: column;
+    width: 100%;
+    height: 380px;
+  }
+  main .Ideas .container .top .top-left {
+    width: 100%;
+    height: 120px;
+  }
+  main .Ideas .container .top .top-middle {
+    width: 100%;
+    height: 120px;
+  }
+  main .Ideas .container .top .top-right {
+    width: 100%;
+    height: 120px;
+  }
+  main .Ideas .container .middle {
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+  }
+  main .Ideas .container .middle .middle-left {
+    width: 100%;
+    height: 120px;
+  }
+  main .Ideas .container .middle .middle-right {
+    width: 100%;
+    height: 120px;
+  }
+  main .Ideas .container .bottom {
+    flex-direction: column;
+    height: 250px;
+    width: 100%;
+  }
+  main .Ideas .container .bottom .bottom-left {
+    width: 100%;
+    height: 120px;
+  }
+  main .Ideas .container .bottom .bottom-right {
+    width: 100%;
+    height: 120px;
+  }
+  main .Activity .title {
+    text-align: center;
+    margin: 0 0 10px 0;
+  }
+  main .Activity p {
+    margin: 0 0 10px 0;
+    text-align: center;
+  }
+  main .Activity .search_block {
+    flex-direction: column;
+    height: 90px;
+    width: 95%;
+  }
+  main .Activity .search_block form input {
+    width: 95%;
+  }
+  main .Activity .search_block a {
+    width: 95%;
+    text-align: center;
+  }
+  footer {
+    padding: 22px 0;
+    width: 100%;
+  }
+  footer .container {
+    width: 95%;
+    flex-direction: column;
+  }
+  footer .container .left {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+  footer .container .left a {
+    text-align: center;
+  }
+  footer .container .left .bold {
+    text-align: center;
+  }
+  footer .container .left div p {
+    text-align: center;
+  }
+  footer .container .left div ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  footer .container .right {
+    padding: 20px 0 0;
+  }
+}/*# sourceMappingURL=style.css.map */

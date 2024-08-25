@@ -1,0 +1,198 @@
+ul {
+  list-style-type: none;
+}
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+header {
+  height: 100vh;
+  background-image: url(./photo/Background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.fw-regular {
+  font-size: 64px;
+}
+.fw-regular2 {
+  font-size: 24px;
+}
+.fw-regular3 {
+  margin-top: 100px;
+  font-size: 18px;
+}
+.About {
+  height: 544px;
+}
+.Skills {
+  height: 693px;
+  background-color: rgba(255, 250, 242, 1);
+}
+.Portfolio {
+  height: 693px;
+}
+footer {
+  height: 528px;
+  background-color: rgba(255, 250, 242, 1);
+  padding: 93px 180px 70px 165px;
+}
+header,
+main {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 375px) {
+  header {
+    height: 275px;
+    padding: 36px;
+  }
+  header .row {
+    height: 70px !important;
+  }
+
+  .row .col-xl-5 {
+    align-items: start !important;
+  }
+  .fw-regular {
+    font-size: 20px;
+    text-align: center;
+  }
+  .fw-regular2 {
+    font-size: 13px;
+    text-align: center;
+  }
+  .fw-regular3 {
+    font-size: 13px;
+    text-align: center;
+    margin: 0;
+  }
+  #nav {
+    display: none !important;
+  }
+  .About {
+    height: 350px;
+    padding: 25px;
+  }
+  .About .fw-bold {
+    text-align: center;
+    margin: 10px !important;
+  }
+  .about-text {
+    font-size: 12px !important;
+    margin: 0 !important;
+  }
+  .Skills {
+    height: 693px;
+    font-size: 12px;
+  }
+  .Skills .fw-bold {
+    text-align: center;
+    margin: 25px !important;
+  }
+  .photo {
+    justify-content: center;
+    align-items: center;
+    height: 218px !important;
+    width: 224px !important;
+    margin-bottom: 20px;
+  }
+  .photo img {
+    height: 218px !important;
+    width: 224px !important;
+  }
+  #Skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  #Skills-container .container {
+    padding: 0 !important;
+  }
+  #Profile2 {
+    margin: 16px;
+    text-align: end;
+  }
+
+  .UXResearch {
+    margin: 0 !important;
+  }
+  .UXResearch .fw-bold {
+    margin: 0 50px 0 20px !important;
+  }
+  .Tools {
+    height: 25px;
+    margin: 0 0 20px 0;
+  }
+  .Tools .fw-bold {
+    margin: 10px 0 0 30px !important;
+  }
+  .UIDesign {
+    margin: 0 !important;
+  }
+  .UIDesign .fw-bold {
+    margin: 0 50px 0 25px !important;
+  }
+  .Front-end {
+    margin: 0 !important;
+  }
+  .Front-end .fw-bold {
+    margin: 0 50px 0 25px !important;
+  }
+  .Portfolio {
+    height: 504px;
+  }
+  .Portfolio .container .fw-bold {
+    text-align: center;
+    margin: 25px 0 0 0 !important;
+  }
+  #photos {
+    align-items: center;
+    flex-direction: column;
+  }
+  #photos div {
+    width: 300px !important;
+  }
+  #photos .mt-5 {
+    margin: 25px 0 10px 0 !important;
+  }
+  #photos .d-flex {
+    margin: 5px 0 0 0 !important;
+  }
+  .left-photos {
+    width: 170px;
+    height: 200px !important;
+  }
+  .left-photos img:first-child {
+    width: 170px !important;
+    height: 70px !important;
+  }
+  .left-photos img:last-child {
+    width: 170px !important;
+    height: 120px !important;
+  }
+  .right-photos {
+    width: 120px;
+    height: 200px !important;
+  }
+  .right-photos img:last-child {
+    width: 120px !important;
+    height: 70px !important;
+  }
+  .right-photos img:first-child {
+    width: 120px !important;
+    height: 120px !important;
+  }
+  footer {
+    height: 360px;
+    padding: 26px 32px;
+  }
+  footer .fw-bold{
+    text-align: center;
+    margin-bottom: 20px!important;
+  }
+  .PortfolioLink{
+    flex-wrap: wrap;
+  }
+  .PortfolioLink ul:last-child{
+    padding: 0;
+  }
+}

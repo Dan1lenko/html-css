@@ -1,0 +1,176 @@
+@import "reset.css";
+
+$item-color: rgb(139, 222, 250);
+@mixin item($size, $position, $repeat, $background-image) {
+  background-size: $size;
+  background-position: $position;
+  background-repeat: $repeat;
+  background-image: $background-image;
+}
+@mixin big($size, $padding) {
+  font-size: $size;
+  padding: $padding;
+}
+
+body {
+  background-color: rgb(255, 150, 111);
+  .container {
+    background-color: rgb(90, 174, 202);
+    height: 400px;
+    width: 100%;
+    margin-top: 200px;
+    display: flex;
+    justify-content: left;
+    .item {
+      height: 100%;
+      width: 120px;
+      background-color: $item-color;
+      margin-right: 1px;
+      cursor: pointer;
+      .text {
+        margin: 120px 0 120px 150px;
+        height: 100%;
+        font-size: 64px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: none;
+        display: none;
+        
+        .Name {
+          background-image: none;
+          z-index: 1;
+          
+        }
+        .small {
+          background-image: none;
+          z-index: 2;
+          font-size: 20px;
+          width: 400px;
+          margin-top: 20px;
+          
+        }
+      }
+    }
+    .item:hover .text {
+      display: block;
+    }
+
+    :first-child {
+      @include item(50px, center, no-repeat, url(../photos/twitter.svg));
+      transition: 0.25s linear;
+      position: relative;
+    }
+    :first-child:hover {
+      margin-right: 500px;
+    }
+    :nth-child(2) {
+      @include item(50px, center, no-repeat, url(../photos/facebook.svg));
+      position: relative;
+      transition: 0.25s linear;
+    }
+    :nth-child(2):hover {
+      margin-right: 500px;
+    }
+    :nth-child(3) {
+      @include item(50px, center, no-repeat, url(../photos/linkedin.svg));
+      position: relative;
+      transition: 0.25s linear;
+    }
+    :nth-child(3):hover {
+      margin-right: 500px;
+    }
+    :nth-child(4) {
+      @include item(50px, center, no-repeat, url(../photos/instagram.svg));
+      position: relative;
+      transition: 0.25s linear;
+    }
+    :nth-child(4):hover {
+      margin-right: 500px;
+    }
+    :nth-child(5) {
+      @include item(50px, center, no-repeat, url(../photos/youtube.svg));
+      position: relative;
+      transition: 0.25s linear;
+    }
+    :nth-child(5):hover {
+      margin-right: 500px;
+    }
+    :nth-child(6) {
+      @include item(50px, center, no-repeat, url(../photos/tumblr.svg));
+      position: relative;
+      transition: 0.25s linear;
+    }
+    :nth-child(6):hover {
+      margin-right: 500px;
+    }
+    .item7 {
+      @include item(50px, center, no-repeat, url(../photos/dribble.svg));
+      position: relative;
+      transition: 0.25s linear;
+    }
+
+    .item::after
+     {
+      position: absolute;
+      margin-right: 500px;
+      content: "";
+      width: 0;
+      height: 100%;
+      background-color: white;
+      top: 0;
+      left: 120px;
+      transition: 0.25s linear;
+    }
+
+    .item:hover::after {
+      width: 500px;
+    }
+
+    .item:hover::before {
+      width: 100%;
+    }
+    .before {
+      position: absolute;
+      content: "";
+      width: 0;
+      height: 100%;
+      top: 0;
+      right: 0;
+      transition: 0.25s linear;
+    }
+    .item1::before {
+      @extend .before;
+      background-color: #00acee;
+      @include item(70px, center, no-repeat, url(../photos/twitter.svg));
+    }
+    .item2::before {
+      @extend .before;
+      background-color: #3b5998;
+      @include item(70px, center, no-repeat, url(../photos/facebook.svg));
+    }
+    .item3::before {
+      @extend .before;
+      background-color: #0e76a8;
+      @include item(70px, center, no-repeat, url(../photos/linkedin.svg));
+    }
+    .item4::before {
+      @extend .before;
+      background: #833ab4;
+      @include item(70px, center, no-repeat, url(../photos/instagram.svg));
+    }
+    .item5::before {
+      @extend .before;
+      background: #c4302b;
+      @include item(70px, center, no-repeat, url(../photos/youtube.svg));
+    }
+    .item6::before {
+      @extend .before;
+      background: #34526f;
+      @include item(70px, center, no-repeat, url(../photos/tumblr.svg));
+    }
+    .item7::before {
+      @extend .before;
+      background: #ea4c89;
+      @include item(70px, center, no-repeat, url(../photos/dribble.svg));
+    }
+  }
+}

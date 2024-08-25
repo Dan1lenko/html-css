@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(./1662265415_2-kartinkin-net-p-chernii-kosmos-bez-zvezd-kosmos-5.jpg);
+}
+
+.radius {
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  border: 1px solid rgb(114, 114, 114);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  transform-style: preserve-3d;
+  transform: rotateX(75deg) rotateY(0deg) rotateZ(0deg);
+}
+
+.radius img {
+  transform: rotateX(90deg) rotateY(0deg) rotateZ(180deg);
+  margin: 0 125px;
+}
+
+.circle {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-image: url(./FullMoon2010.jpg);
+  background-size: 120%;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  animation-name: run;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
+  transform: rotateZ(0deg) translate(300px) rotateY(90deg) rotateX(90deg);
+}
+
+@keyframes run {
+  100% {
+    transform: rotateZ(360deg) translate(300px) rotateY(90deg) rotateX(450deg);
+  }
+}

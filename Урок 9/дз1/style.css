@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(53, 133, 207);
+}
+.kvadrat {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  animation-name: scale;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+ 
+}
+@keyframes scale {
+  0% {
+    scale: 1;
+    border-radius: 0%;
+  }
+  50% {
+    scale: 0.2;
+    transform: rotate(360deg);
+    border-radius: 50%;
+  }
+  100% {
+    scale: 1;
+    transform: rotate(720deg);
+    border-radius: 0%;
+  }
+}
