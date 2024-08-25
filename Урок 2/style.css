@@ -1,0 +1,16 @@
+h2{
+    box-shadow: 0 0 10px 0 rgb(255, 66, 66);
+}
+h3 {
+  background-color: darkcyan;
+  color: white;
+  text-align: end;
+}
+
+h1 {
+  box-shadow: 0 0 10px 0 rgb(255, 0, 0);
+}
+
+#shadow {
+  box-shadow: 0 0 10px 0 black;
+}

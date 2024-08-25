@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 24px;
+  text-align: center;
+}
+
+.container {
+  width: 900px;
+  margin: 20px auto;
+  outline: 2px black solid;
+}
+
+.top {
+  height: 150px;
+  background-color: antiquewhite;
+  padding: 40px 0;
+}
+.top-small {
+  width: 70%;
+  height: 70px;
+  background-color: rgb(211, 174, 119);
+  margin: 0 auto;
+  padding: 15px 0;
+}
+.top-small-small {
+  width: 40%;
+  height: 40px;
+  background-color: azure;
+  margin: 0 auto;
+}
+
+.menu {
+  height: 130px;
+}
+
+.menu-small {
+  width: 180px;
+  height: 130px;
+  float: left;
+}
+
+.first {
+  background-color: rgb(65, 100, 100);
+}
+.second {
+  background-color: rgb(97, 139, 230);
+}
+.third {
+  background-color: rgb(240, 211, 173);
+}
+.fourth {
+  background-color: rgb(255, 144, 240);
+}
+.fifth {
+  background-color: blueviolet;
+}
+
+.BigBoxes {
+  height: 400px;
+}
+
+.box-small {
+  width: 300px;
+  height: 400px;
+  float: left;
+}
+.firstBox {
+  background-color: green;
+}
+.secondBox {
+  background-color: rgb(43, 90, 86);
+}
+.thirdBox {
+  background-color: rgb(139, 196, 139);
+}
+
+.bottom {
+  background-color: gray;
+  height: 130px;
+}
+
+.box-small-small {
+  height: 100px;
+  width: 70%;
+  background-color: antiquewhite;
+  margin: 10px auto;
+
+  padding: 33px 0;
+}
+
+.box345 {
+  width: 50%;
+  height: 250px;
+  margin: 40px auto 0;
+}
+.box3 {
+  height: 80px;
+  background-color: rgb(151, 0, 0);
+}
+.box4 {
+  height: 170px;
+  width: 50%;
+  background-color: rgb(248, 118, 118);
+  float: left;
+}
+.box5 {
+  height: 170px;
+  width: 50%;
+  background-color: rgb(192, 187, 110);
+  float: left;
+}
+
+.A {
+  height: 45px;
+  background-color: darkcyan;
+}
+.B {
+  width: 100px;
+  background-color: rgb(154, 238, 189);
+  height: 355px;
+  float: left;
+}
+.C {
+  width: 100px;
+  background-color: rgb(223, 241, 231);
+  height: 355px;
+  float: left;
+}
+.D {
+  width: 100px;
+  height: 355px;
+  float: left;
+}
+.B1B2 {
+  height: 100%;
+}
+.B1 {
+  width: 50%;
+  height: 260px;
+  background-color: brown;
+  float: left;
+  margin-top: 68px;
+}
+.B2 {
+  width: 50%;
+  height: 120px;
+  background-color: chartreuse;
+  float: left;
+  margin-top: 208px;
+}
+.C1,
+.C2,
+.C3 {
+  width: 100%;
+  height: 90px;
+}
+.C1 {
+  background-color: aliceblue;
+}
+.C2 {
+  background-color: rgb(46, 26, 228);
+}
+.C3 {
+  background-color: rgb(187, 66, 224);
+}
+.C4 {
+  background-color: rgb(255, 248, 232);
+  width: 50%;
+  height: 85px;
+  float: left;
+}
+.C5 {
+  background-color: rgb(255, 134, 130);
+  width: 50%;
+  height: 85px;
+  float: left;
+}
+.D1,
+.D2 {
+  height: 90px;
+}
+.D1 {
+  background-color: aquamarine;
+}
+.D2 {
+  background-color: rgb(70, 161, 129);
+}
+.D3 {
+  background-color: beige;
+  height: 175px;
+}
+
+.I23 {
+  height: 45px;
+}
+.I {
+  float: left;
+  background-color: lightgreen;
+  height: 45px;
+  width: 100px;
+}
+.II {
+  float: left;
+  background-color: rgb(226, 131, 245);
+  height: 45px;
+  width: 100px;
+}
+.III {
+  float: left;
+  background-color: rgb(253, 154, 73);
+  height: 45px;
+  width: 100px;
+}
+.IV {
+  height: 70px;
+  background-color: rgb(255, 227, 204);
+  padding: 15px 0;
+}
+.IVsmall {
+  width: 50%;
+  height: 40px;
+  background-color: red;
+  margin: auto;
+  padding-top: 30px;
+}
+.IVsmall-small {
+  width: 30%;
+  height: 10px;
+  background-color: black;
+  margin: auto;
+}
+.V {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(209, 209, 209);
+}
+
+.six-ten {
+  width: 100%;
+  height: 215px;
+}
+.VI {
+  background-color: rgb(43, 90, 86);
+  height: 100%;
+  width: 100px;
+  float: left;
+}
+
+.seven-ten{
+    float: left;
+    height: 215px;
+}
+.VII {
+  width: 200px;
+  height: 70px;
+  background-color: lightslategray;
+  
+}
+.eight-ten{
+    width: 200px;
+        height: 70px;
+}
+.VIII{
+    width: 100px;
+    height: 70px;
+    background-color: blueviolet;
+    float: left;
+}
+.IX{
+    width: 100px;
+    height: 70px;
+    background-color: rgb(204, 193, 158);
+    float: left;
+}
+.X{
+    background-color: hotpink;
+    height: 75px;
+}

@@ -1,0 +1,323 @@
+@import url(./reset.css);
+
+.container {
+  margin: 0 auto;
+  width: 1440px;
+  height: 900px;
+
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+.menu-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  margin: 60px;
+  line-height: 130px;
+  transition: 0.25s linear;
+}
+.menu-link:hover {
+  color: rgba(39, 133, 247, 1);
+}
+.menu-active {
+  color: rgba(39, 133, 247, 1);
+}
+.left-active {
+  background-color: rgba(39, 133, 247, 1);
+}
+.left-active span svg path{
+  fill: aliceblue;
+}
+.left-active span svg{
+    height: 45px;
+    width: 45px;
+}
+.content {
+  width: 1404px;
+  height: 726px;
+  background-color: rgba(234, 235, 237, 1);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 30px;
+}
+.left {
+  width: 105px;
+  height: 420px;
+  background-color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.left img {
+  width: 45px;
+  fill: white;
+}
+.left-item {
+  height: 62px;
+  width: 67px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+}
+.right {
+  width: 1212px;
+  height: 574px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top {
+  width: 100%px;
+  height: 130px;
+  display: flex;
+  justify-content: space-between;
+}
+.top-item1 {
+  height: 100%;
+  width: 583px;
+  background-color: rgba(254, 254, 254, 1);
+  border-radius: 30px;
+  padding: 32px 42px;
+}
+.top-item2 {
+  height: 100%;
+  width: 592px;
+  background-color: rgba(254, 254, 254, 1);
+  border-radius: 30px;
+  padding: 32px 42px;
+}
+.top-item-gray {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: rgba(177, 177, 177, 1);
+  line-height: 28px;
+}
+.top-item-black {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.bottom {
+  height: 410px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.left-bottom {
+  height: 100%;
+  width: 732px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.left-bottom-item {
+  height: 194px;
+  width: 100%;
+  background-color: rgba(254, 254, 254, 1);
+  border-radius: 30px;
+  padding: 34px 66px 34px 42px;
+}
+.left-bottom-item img {
+  width: 120px;
+  height: 138.26px;
+  margin-right: 49px;
+  float: left;
+}
+.right-bottom {
+  height: 100%;
+  width: 447px;
+  background-color: rgba(254, 254, 254, 1);
+  border-radius: 30px;
+  padding: 34px 42px;
+}
+.right-bottom img {
+  height: 120px;
+  margin-bottom: 24px;
+}
+
+.team-content {
+  width: 1404px;
+  height: 726px;
+  background-color: rgba(234, 235, 237, 1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 30px;
+}
+.team-top-items {
+  width: 1297px;
+  height: 325px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.team-top-item {
+  background-color: rgb(255, 255, 255);
+  width: 292px;
+  height: 325px;
+  border-radius: 41px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 51px 0;
+  cursor: pointer;
+  transition: 0.25s linear;
+}
+
+.team-top-item:hover {
+  background-color: rgba(38, 132, 247, 1);
+}
+.team-top-item:hover .top-item-black {
+  color: rgb(255, 255, 255); 
+}
+.team-top-item:hover .team-top-item-gray {
+  color: rgb(255, 255, 255); 
+}
+.team-top-item div {
+  text-align: center;
+  margin-bottom: 35px;
+}
+.team-top-item div:hover {
+  color: white;
+}
+.team-top-item img {
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+}
+.team-top-item-gray {
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  color: rgba(177, 177, 177, 1);
+  line-height: 28px;
+}
+
+.team-bottom-items {
+  width: 1297px;
+  height: 325px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.team-bottom-item {
+  background-color: rgb(255, 255, 255);
+  width: 292px;
+  height: 278px;
+  border-radius: 41px;
+  border-radius: 41px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 20px 0;
+  transition: 0.25s linear;
+  cursor: pointer;
+}
+.team-bottom-item:hover {
+  background-color: rgba(38, 132, 247, 1);
+}
+.team-bottom-item:hover .top-item-black {
+  color: rgb(255, 255, 255); 
+}
+.team-bottom-item:hover .team-top-item-gray {
+  color: rgb(255, 255, 255); 
+}
+.team-bottom-item img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+.team-bottom-item div {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.lessons-content {
+  width: 1404px;
+  height: 726px;
+  background-color: rgba(234, 235, 237, 1);
+  border-radius: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 130px;
+}
+.top-lessons-item {
+  display: flex;
+  width: 1194px;
+  height: 40px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 130px;
+}
+.bottom-lessons-items {
+  width: 1194px;
+  height: 405px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.bottom-lessons-item {
+  width: 1194px;
+  height: 64px;
+
+  border-radius: 21px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 90px;
+}
+.bottom-lessons-item:hover {
+  background-color: rgb(255, 255, 255);
+}
+.top-item-black2,
+.top-item-black3 {
+  font-size: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: black;
+  margin-left: 60px;
+}
+.top-item-black3 {
+  margin-right: 70px;
+  margin-left: 0;
+}
+.bottom-lessons-item span {
+  border: 1px solid black;
+  width: 35px;
+  height: 35px;
+  border-radius: 11px;
+  cursor: pointer;
+  transition: 0.4s linear;
+}
+.bottom-lessons-item span:hover {
+  background-color: rgba(38, 132, 247, 1);
+  border: 0;
+}
+.bottom-lessons-item span svg {
+  width: 20px;
+  height: 22px;
+  margin: 6px 7px;
+  transition: 0.4S LINEAR;
+}
+
+.bottom-lessons-item .download-icon:hover svg path {
+    fill: white; /* Цвет SVG при наведении */
+  }

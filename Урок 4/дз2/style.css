@@ -1,0 +1,73 @@
+@import url(./reset.css);
+
+nav {
+  background-color: rgb(219, 219, 219);
+  margin: 0 auto;
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+  color: rgb(219, 0, 0);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  height: 800px;
+  width: 100vw;
+}
+
+.images {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.images img {
+  border: 5px rgb(54, 54, 54) ridge;
+}
+
+.text {
+  height: 100%;
+  width: 50%;
+}
+.BigImage {
+  width: 80%;
+  background-image: url(https://scontent-iev1-1.xx.fbcdn.net/v/t39.30808-6/352962963_796142855205983_4690359882317488226_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=dPUtVilH2oAQ7kNvgFfojgL&_nc_ht=scontent-iev1-1.xx&oh=00_AYBaKIOZ5vydGG8A1D38EnaUEX9BD0G5Q4cW_7p0Ew4Oug&oe=669ADA8C);
+  height: 340px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.SmallImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin-top: 60px;
+  height: 80px;
+}
+.SmallImages img {
+  width: 23%;
+}
+
+.ContainerForText {
+  width: 80%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  margin: 155px auto;
+}
+.SmallText {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 20px;
+}
